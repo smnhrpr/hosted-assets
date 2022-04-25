@@ -153,7 +153,7 @@ function paintBlock() {
 
 	var content = '<div class="layout layout--2-columns"><div class="column">'+card1+'</div><div class="column">'+card2+'</div></div>';
 
-    sdk.setContent(global_styles+'<section class="content-section section '+section_theme_class+'">'+styles+title+intro+'        <div class="content-section__content">'+content+'</div></section>');
+    sdk.setContent('<section class="content-section section '+section_theme_class+'"><div class="container">'+styles+title+intro+'        <div class="content-section__content">'+content+'</div></div></section>');
 	sdk.setData({
 		section_theme: section_theme,
 		section_title: section_title,
