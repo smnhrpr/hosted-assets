@@ -149,7 +149,7 @@ function paintBlock() {
 
 	var card1 = '<div class="cta-card"><div class="cta-card__img"><img src="'+card1_image+'" alt="'+card1_title+'"></div><div class="cta-card__content"><h3>'+card1_title+'</h3><p>'+card1_description+'</p><a href="'+card1_url+'" class="pb__button">'+card1_button+'</a></div></div>';
 
-	var card2 = '<div class="cta-card dark"><div class="cta-card__img"><img src="'+card2_image+'" alt="'+card2_title+'"></div><div class="cta-card__content"><h3>'+card2_title+'</h3><p>'+card2_description+'</p><a href="'+card2_url+'" class="pb__button">'+card2_button+'</a></div></div>';
+	var card2 = '<div class="cta-card dark"><div class="cta-card__img"><img src="'+card2_image+'" alt="'+card2_title+'"></div><div class="cta-card__content"><h3>'+card2_title+'</h3><p>'+card2_description+'</p><a href="'+card2_url+'" class="pb__button secondary marketing">'+card2_button+'</a></div></div>';
 
 	var content = '<div class="layout layout--2-columns"><div class="column">'+card1+'</div><div class="column">'+card2+'</div></div>';
 
