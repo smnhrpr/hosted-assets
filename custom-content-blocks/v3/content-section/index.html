@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Content Stack Block</title>
+</head>
+
+<body>
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__body">
+                    <h2 class="slds-card__header-link slds-truncate slds-text-heading_medium">
+                        Content Stack
+                    </h2>
+                </div>
+            </header>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">
+            <div id="workspace">
+
+                <h3 class="slds-text-heading_small slds-m-bottom_small">
+                    Stack Settings
+                </h3>
+
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control">
+                        <div class="slds-checkbox">
+                            <input type="checkbox" name="options" id="section-theme" value="section-theme" checked="" />
+                            <label class="slds-checkbox__label" for="section-theme">
+                                <span class="slds-checkbox_faux"></span>
+                                <span class="slds-form-element__label">Use grey background</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="section-id">ID (Optional)</label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="section-id" class="slds-input" placeholder="Anchor ID" />
+                    </div>
+                </div>
+
+                <h3 class="slds-text-heading_small slds-m-bottom_small slds-m-top_small">
+                    Content
+                </h3>
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="section-title">Stack Title (Optional)</label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="section-title" class="slds-input" placeholder="Stack title" />
+                    </div>
+                </div>
+
+                <div class="slds-form-element" id="column_1_editor">
+                    <label class="slds-form-element__label" for="section-description">Stack description
+                        (Optional)</label>
+                    <div id="section-description"></div>
+                </div>
+
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="section-button">Button (Optional)</label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="section-button" class="slds-input" placeholder="Button label" />
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="section-button-url">Button URL</label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="section-button-url" class="slds-input" placeholder="Button url" />
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="section-button-appearance">Button
+                        Appearance</label>
+                    <div class="slds-form-element__control">
+                        <div class="slds-select_container">
+                            <select class="slds-select" id="section-button-appearance">
+                                <option value="default-primary">Default (Primary)</option>
+                                <option value="default-secondary">Default (Secondary)</option>
+                                <option value="alternative-primary">Alternative (Primary)</option>
+                                <option value="alternative-secondary">Alternative (Secondary)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
