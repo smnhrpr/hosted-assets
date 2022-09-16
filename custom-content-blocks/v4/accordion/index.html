@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Accordion</title>
+</head>
+
+<body>
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__body">
+                    <h2 class="slds-card__header-link slds-truncate slds-text-heading_small">
+                        Accordion
+                    </h2>
+                </div>
+            </header>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">
+            <div id="workspace">
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="accordion-id">ID</label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="accordion-id" class="slds-input" placeholder="Anchor ID" />
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control">
+                        <div class="slds-checkbox">
+                            <input type="checkbox" name="options" id="accordion-open" value="accordion-open"
+                                checked="" />
+                            <label class="slds-checkbox__label" for="accordion-open">
+                                <span class="slds-checkbox_faux"></span>
+                                <span class="slds-form-element__label">Use white background</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="accordion-title">Accordion Title</label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="accordion-title" class="slds-input" placeholder="Accordion title" />
+                    </div>
+                </div>
+
+                <div class="slds-form-element" id="column_1_editor">
+                    <label class="slds-form-element__label" for="accordion-content">Content</label>
+                    <div id="accordion-content"></div>
+                </div>
+
+            </div>
+        </div>
+    </article>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
