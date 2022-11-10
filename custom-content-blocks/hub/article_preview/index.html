@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hub Article Block</title>
+</head>
+
+<body>
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__body">
+                    <h2 class="slds-card__header-link slds-truncate slds-text-heading_medium">
+                        Hub Article Block
+                    </h2>
+                </div>
+            </header>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">
+            <div id="workspace">
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="preview-title">Title</label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="preview-title" class="slds-input" placeholder="Title" />
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="preview-url">Url</label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="preview-url" class="slds-input"
+                            placeholder="Url - https://www.purplebricks.co.uk" />
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="preview-description">Description</label>
+                    <div class="slds-form-element__control">
+                        <textarea id="preview-description" placeholder="Description" class="slds-textarea"></textarea>
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="preview-meta">Meta</label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="preview-meta" class="slds-input"
+                            placeholder="For example: time to read" />
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="preview-image">Image url</label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="preview-image" class="slds-input" placeholder="Image url" />
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="preview-image-alt">Image alt</label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="preview-image-alt" class="slds-input" placeholder="Alt text" />
+                    </div>
+                </div>
+
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control">
+                        <div class="slds-checkbox">
+                            <input type="checkbox" name="options" id="preview-last" value="preview-last" checked="" />
+                            <label class="slds-checkbox__label" for="preview-last">
+                                <span class="slds-checkbox_faux"></span>
+                                <span class="slds-form-element__label">Last article in section?</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </article>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
